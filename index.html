@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+ <ol>
+   <div class="text_images_and_result">
+     <li>
+       <b>Test Image-</b>
+       <img src="20210211_211616.jpg" class="img-responsive">
+     </li>
+
+     <h5>Output on <b>Microsoft Azure</b>-
+    <span>"computer"</span>
+    </h5>
+
+    <h5>Output on <b>MobileNet Project</b>-
+      <span>'television,tv,phone'</span>
+      </h5>
+
+      <div class="mini_result">
+        <h4>Result-</h4>
+        <hr>
+        <h4> MobileNet is more accurate </h4>
+      </div>
+   </div>
+
+   <div class="text_images_and_result">
+    <li>
+      <b>Test Image-</b>
+      <img src="20210211_211848.jpg" class="img-responsive">
+    </li>
+
+    <h5>Output on <b>Microsoft Azure</b>-
+   <span>"indoor"</span>
+   </h5>
+
+   <h5>Output on <b>MobileNet Project</b>-
+     <span>"charging station" </span>
+     </h5>
+
+     <div class="mini_result">
+       <h4>Result-</h4>
+       <hr>
+       <h4>both are wrong</h4>
+     </div>
+  </div>
+
+  <div class="text_images_and_result">
+    <li>
+      <b>Test Image-</b>
+      <img src="20210211_211921.jpg" class="img-responsive">
+    </li>
+
+    <h5>Output on <b>Microsoft Azure</b>-
+   <span>"cup"</span>
+   </h5>
+
+   <h5>Output on <b>MobileNet Project</b>-
+     <span>"water bottle, bottle"</span>
+     </h5>
+
+     <div class="mini_result">
+       <h4>Result-</h4>
+       <hr>
+       <h4>MobileNet is more accurate </h4>
+     </div>
+  </div>
+
+  <div class="text_images_and_result">
+    <li>
+      <b>Test Image-</b>
+      <img src="IMG-3236.jpg" class="img-responsive">
+    </li>
+
+    <h5>Output on <b>Microsoft Azure</b>-
+   <span>"Land vehicle"</span>
+   </h5>
+
+   <h5>Output on <b>MobileNet Project</b>-
+     <span>"bubble"</span>
+     </h5>
+
+     <div class="mini_result">
+       <h4>Result-</h4>
+       <hr>
+       <h4>Microsoft Azure is more accurate </h4>
+     </div>
+  </div>
+
+  <div class="text_images_and_result">
+    <li>
+      <b>Test Image-</b>
+      <img src="IMG-3237.jpg" class="img-responsive">
+    </li>
+  
+    <h5>Output on <b>Microsoft Azure</b>-
+   <span>"Remote Controller" </span>
+   </h5>
+  
+   <h5>Output on <b>MobileNet Project</b>-
+     <span>"spotlight"</span>
+     </h5>
+  
+     <div class="mini_result">
+       <h4>Result-</h4>
+       <hr>
+       <h4>Microsoft Azure is more accurate </h4>
+     </div>
+  </div>
+ </ol>
+<h4>I had loaded up 5 images and the result was MobileNet with 2 correct and 3 wrong to
+   Microsoft Azure 2 correct and 3 wrong, which means it is a tie!</h4>
+ 
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
